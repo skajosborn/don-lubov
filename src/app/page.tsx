@@ -3,38 +3,43 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+      {/* Content Container */}
+      <div className="relative z-10">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6">
-              Don Lubov
-            </h1>
-            <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Crafting stories that transport readers to extraordinary worlds, 
-              where imagination meets reality and every page holds a new adventure.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                Explore My Books
-              </button>
-              <button className="border border-gray-300 hover:bg-gray-50 text-gray-700 px-8 py-3 rounded-lg font-semibold transition-colors">
-                About Me
-              </button>
-            </div>
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center justify-center">
+        {/* Hero Background Image */}
+        <div 
+          className="absolute inset-0 mx-5 my-0 bg-center bg-no-repeat -mt-60"
+          style={{
+            backgroundImage: "url('/zenman.png')",
+            backgroundSize: "contain",
+          }}
+        />
+        {/* Hero Content */}
+        <div className="relative z-10 flex flex-col items-center justify-center text-center max-w-2xl mx-auto">
+          <p className="text-2xl sm:text-3xl text-black mb-10 max-w-xl mx-auto -mt-140">
+            Your path to enlightenment begins here.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pb-10">
+            <button className="bg-white/80 hover:bg-white/30 px-6 py-2 rounded-lg font-semibold transition-colors backdrop-blur-sm">
+              Explore My Books
+            </button>
+            <button className="bg-white/80 hover:bg-white/20 px-6 py-2 rounded-lg font-semibold transition-colors backdrop-blur-sm">
+              About Me
+            </button>
           </div>
         </div>
       </section>
 
       {/* Featured Books Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
             Featured Books
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Book 1 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <a href="/books/book1" className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow block">
               <div className="h-64 bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center">
                 <div className="text-white text-center">
                   <div className="text-6xl mb-2">📚</div>
@@ -50,15 +55,15 @@ export default function Home() {
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-2xl font-bold text-indigo-600">$19.99</span>
-                  <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded font-medium transition-colors">
-                    Buy Now
-                  </button>
+                  <span className="bg-indigo-600 text-white px-4 py-2 rounded font-medium">
+                    Learn More
+                  </span>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Book 2 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <a href="/books/book2" className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow block">
               <div className="h-64 bg-gradient-to-br from-green-400 to-teal-600 flex items-center justify-center">
                 <div className="text-white text-center">
                   <div className="text-6xl mb-2">🌿</div>
@@ -74,12 +79,12 @@ export default function Home() {
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-2xl font-bold text-indigo-600">$24.99</span>
-                  <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded font-medium transition-colors">
-                    Buy Now
-                  </button>
+                  <span className="bg-indigo-600 text-white px-4 py-2 rounded font-medium">
+                    Learn More
+                  </span>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Book 3 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
@@ -109,7 +114,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -156,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Get in Touch
@@ -194,6 +199,7 @@ export default function Home() {
           </p>
         </div>
       </footer>
+      </div>
     </div>
   );
 }
