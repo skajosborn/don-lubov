@@ -1,44 +1,72 @@
 import Image from "next/image";
+import BookGallery from "../../components/BookGallery";
 
 export default function Book3Page() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50 to-pink-100">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          {/* Book Cover */}
-          <div className="flex justify-center">
-            <div className="bg-gradient-to-br from-red-400 to-pink-600 rounded-lg shadow-2xl p-8 w-80 h-96 flex items-center justify-center">
-              <div className="text-white text-center">
-                <div className="text-8xl mb-4">⚡</div>
-                <h2 className="text-2xl font-bold mb-2">Echoes of Tomorrow</h2>
-                <p className="text-sm opacity-90">Book Cover</p>
-              </div>
-            </div>
+    <div className="min-h-screen pt-20 relative">
+      {/* Background Image */}
+      {/* <div
+        className="absolute inset-0 w-full h-full z-0 opacity-60 pointer-events-none"
+        style={{
+          backgroundImage: "url('/zen3.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+        aria-hidden="true"
+      /> */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+          {/* Book Gallery */}
+          <div className="flex pt-40 lg:col-span-1">
+            <BookGallery
+              mainImage="/book5.png"
+              mainImageAlt="Long Island Zen Book Cover"
+              title="Long Island Zen"
+              subtitle="Zen, Spirituality and Enlightenment"
+              author="Don Lubov"
+              thumbnails={[
+                {
+                  src: "/book5.png",
+                  alt: "Book Cover",
+                  label: "Cover"
+                },
+                {
+                  src: "/book3-page1.jpg",
+                  alt: "Page 1",
+                  label: "Page 1"
+                },
+                {
+                  src: "/book3-page2.jpg",
+                  alt: "Page 2",
+                  label: "Page 2"
+                }
+              ]}
+            />
           </div>
 
           {/* Book Details */}
-          <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-gray-900">Echoes of Tomorrow</h1>
-            <p className="text-2xl font-semibold text-pink-600">$21.99</p>
+          <div className="space-y-6 lg:col-span-2">
+            <h1 className="text-4xl font-bold text-gray-900">Long Island Zen</h1>
+            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
             
-            <div className="space-y-4">
+            <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-                A sci-fi thriller exploring the boundaries of time and consciousness. 
-                When quantum physicist Dr. Alex Rivera develops a device that can 
-                send messages to the past, he discovers that changing history comes 
-                with devastating consequences for the future.
+              Long Island Zen combines (100) regional drawings with a universal message to aid us in our destined goal of self-discovery. 
+              It offers insights that give purpose to life. Zen points the way to self discovery...to uncover one's true nature. 
+              Long Island is the place of my discoveries and my drawings.
+
               </p>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
-                <li>• 380 pages of mind-bending sci-fi</li>
-                <li>• Complex time travel mechanics</li>
-                <li>• Philosophical exploration of causality</li>
-                <li>• Fast-paced action and suspense</li>
-                <li>• Perfect for fans of Blake Crouch and Ted Chiang</li>
+                <li>• 420 pages of magical realism</li>
+                <li>• Deep environmental themes</li>
+                <li>• Spiritual and philosophical elements</li>
+                <li>• Rich character development</li>
+                <li>• Perfect for fans of Paulo Coelho and Barbara Kingsolver</li>
               </ul>
             </div>
 
@@ -46,18 +74,18 @@ export default function Book3Page() {
               <h3 className="text-xl font-semibold text-gray-900">Reviews</h3>
               <div className="bg-white p-4 rounded-lg shadow">
                 <p className="text-gray-700 italic">
-                  "A brilliant exploration of time travel that actually makes sense. 
-                  Lubov combines cutting-edge physics with human drama in a way that 
-                  keeps you guessing until the very last page." - Science Fiction Weekly
+                  "A beautiful meditation on our relationship with nature. 
+                  Lubov's prose flows like a gentle stream, carrying readers 
+                  into a world where magic and reality intertwine." - Nature Journal
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                Buy Now - $21.99
+              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                Buy Now - $9.99
               </button>
-              <button className="border border-pink-600 text-pink-600 hover:bg-pink-50 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <button className="border border-teal-600 text-teal-600 hover:bg-teal-50 px-8 py-3 rounded-lg font-semibold transition-colors">
                 Read Sample
               </button>
             </div>

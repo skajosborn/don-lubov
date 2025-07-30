@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book1Page() {
+export default function Book6Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
@@ -19,14 +19,14 @@ export default function Book1Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/book7.png"
-              mainImageAlt="Life's Purpose Book Cover"
-              title="Life's Purpose"
-              subtitle="Life's Purpose"
+              mainImage="/seniorwisdom.jpg"
+              mainImageAlt="Senior Wisdom Book Cover"
+              title="Senior Wisdom"
+              subtitle="Life Lessons"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/book7.png",
+                  src: "/seniorwisdom.jpg",
                   alt: "Book Cover",
                   label: "Cover"
                 },
@@ -46,15 +46,14 @@ export default function Book1Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Life's Purpose - From Stress to Enlightenment</h1>
+            <h1 className="text-4xl font-bold text-gray-900">Senior Wisdom</h1>
             <p className="text-2xl font-semibold text-teal-600">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              This book is your introduction to spirituality...a user-friendly guide to end suffering. End stress forever. Become the best you you can be. Learn to live in the moment. 
-              Find purpose in your life and a conscious connection to your Source. Live a life of peace, love and joy by following my "Six-Step Path" to enlightenment.
-
+              Senior Wisdom - Valuable Life Lessons" offers wise council on how to live a happier, stress-free, productive, creative life, to people at all stages of life. 
+              Its 601 'senior' quotes are each listed in one of twenty-five different categories.
               </p>
             </div>
 
@@ -81,7 +80,7 @@ export default function Book1Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
                 Buy Now - $9.99
               </button>
               <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book1Page() {
+export default function Book11Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
@@ -19,19 +19,19 @@ export default function Book1Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/book7.png"
-              mainImageAlt="Life's Purpose Book Cover"
-              title="Life's Purpose"
-              subtitle="Life's Purpose"
+              mainImage="/grandfathersadvice.png"
+              mainImageAlt="A Grandfather's Advice to His Grandchildren -- An Illustrated Guide Cover"
+              title="A Grandfather's Advice to His Grandchildren -- An Illustrated Guide "
+              subtitle="Life Lessons"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/book7.png",
+                  src: "/grandfathersadvice.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
                 {
-                  src: "/book3-page1.jpg",
+                  src: "/grandfathersadviceback.png",
                   alt: "Page 1",
                   label: "Page 1"
                 },
@@ -46,18 +46,20 @@ export default function Book1Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Life's Purpose - From Stress to Enlightenment</h1>
+            <h1 className="text-4xl font-bold text-gray-900">A Grandfather's Advice to His Grandchildren -- An Illustrated Guide</h1>
             <p className="text-2xl font-semibold text-teal-600">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              This book is your introduction to spirituality...a user-friendly guide to end suffering. End stress forever. Become the best you you can be. Learn to live in the moment. 
-              Find purpose in your life and a conscious connection to your Source. Live a life of peace, love and joy by following my "Six-Step Path" to enlightenment.
-
-              </p>
+              In my 82nd year, it is my wish to share some worthy insights with my grandchildren and children. 
+              I’ve chosen 100 wise sayings that offer valuable life lessons. 
+              Forty-four of these sayings have been gifted to me over the years, as I’ve searched for the purpose of life. 
+              Since 1971, the year of my spiritual awakening, these are some of the Aha! moments I’ve had. 
+              As an artist for sixty years, I’ve chosen to pass these sayings on by illustrating them. 
+              These illustrations are from a collaboration between me and my computer. 
+              I have added 56 sayings from the public domain that have had a lasting impression on me.</p>
             </div>
-
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
@@ -81,7 +83,7 @@ export default function Book1Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
                 Buy Now - $9.99
               </button>
               <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">

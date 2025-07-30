@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book1Page() {
+export default function Book14Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
@@ -19,19 +19,19 @@ export default function Book1Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/book7.png"
-              mainImageAlt="Life's Purpose Book Cover"
-              title="Life's Purpose"
-              subtitle="Life's Purpose"
+              mainImage="/thesidejob.png"
+              mainImageAlt="The Side Job Cover"
+              title="The Side Job"
+              subtitle="Creative Writing"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/book7.png",
+                  src: "/thesidejob.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
                 {
-                  src: "/book3-page1.jpg",
+                  src: "/sidejobback.png",
                   alt: "Page 1",
                   label: "Page 1"
                 },
@@ -46,18 +46,21 @@ export default function Book1Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Life's Purpose - From Stress to Enlightenment</h1>
+            <h1 className="text-4xl font-bold text-gray-900">The Side Job</h1>
             <p className="text-2xl font-semibold text-teal-600">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              This book is your introduction to spirituality...a user-friendly guide to end suffering. End stress forever. Become the best you you can be. Learn to live in the moment. 
-              Find purpose in your life and a conscious connection to your Source. Live a life of peace, love and joy by following my "Six-Step Path" to enlightenment.
-
-              </p>
+              This is the story of Maggie Gomez — an unwed, unskilled mother of a sickly daughter. 
+              She lives a hardscrabble life on the underside of Las Vegas. 
+              As her daughter’s health deteriorates, Maggie's need for money for an operation skyrockets. 
+              Maggie was vulnerable and defeated early in life. 
+              Her long-suppressed strength blossoms and Maggie becomes “La Femme Nikita”. 
+              As Maggie gets more involved with her loan shark boss and his crew, her world begins to spiral out of control. 
+              Her simultaneous involvement with a gangster and the detective investigating him turns her life into a soap opera of emotions. 
+              She must figure out how to escape her underworld life, protect her daughter, and live happily ever after.</p>
             </div>
-
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
@@ -81,7 +84,7 @@ export default function Book1Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
                 Buy Now - $9.99
               </button>
               <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
