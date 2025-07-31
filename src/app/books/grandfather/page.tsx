@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book12Page() {
+export default function Book11Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
@@ -19,19 +19,19 @@ export default function Book12Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/prosepoetry.png"
-              mainImageAlt="Prompts in Prose and Poetry: A Collection of Short Stories Cover"
-              title="Prompts in Prose and Poetry: A Collection of Short Stories"
-              subtitle="Creative Writing"
+              mainImage="/grandfathersadvice.png"
+              mainImageAlt="A Grandfather's Advice to His Grandchildren -- An Illustrated Guide Cover"
+              title="A Grandfather's Advice to His Grandchildren -- An Illustrated Guide "
+              subtitle="Life Lessons"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/prosepoetry.png",
+                  src: "/grandfathersadvice.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
                 {
-                  src: "/prosepoetryback.png",
+                  src: "/grandfathersadviceback.png",
                   alt: "Page 1",
                   label: "Page 1"
                 },
@@ -46,23 +46,19 @@ export default function Book12Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Prompts in Prose and Poetry: A Collection of Short Stories</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">A Grandfather's Advice to His Grandchildren -- An Illustrated Guide</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              Prompts in Prose & Poetryis a collection of short stories written by me. 
-              They range in word count from 74 words to 2,960 words. 
-              They include fiction, nonfiction, prose, and poetry. 
-              Most are from prompts offered by the writing group I belong to: The Writers Bloc Club.
-              I’ve selected 150 pieces (53,300 words) for this collection. 
-              They are arranged in alphabetical order, for easy search. 
-              These pieces are so diverse that they raise all kinds of questions and discussions on a wide range of topics. 
-              This makes Prompts in Prose & Poetrygood for the classroom and as well as the home.
-              Some of my stories are humorous, some are sad. Some are scary and some are serious. 
-              Some are manifestos on what I think is important. 
-              All are meant to be shared.</p>
+              In my 82nd year, it is my wish to share some worthy insights with my grandchildren and children. 
+              I’ve chosen 100 wise sayings that offer valuable life lessons. 
+              Forty-four of these sayings have been gifted to me over the years, as I’ve searched for the purpose of life. 
+              Since 1971, the year of my spiritual awakening, these are some of the Aha! moments I’ve had. 
+              As an artist for sixty years, I’ve chosen to pass these sayings on by illustrating them. 
+              These illustrations are from a collaboration between me and my computer. 
+              I have added 56 sayings from the public domain that have had a lasting impression on me.</p>
             </div>
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
@@ -87,11 +83,8 @@ export default function Book12Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Buy Now - $9.99
-              </button>
-              <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Read Sample
+              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+                Buy it Now
               </button>
             </div>
           </div>

@@ -37,6 +37,9 @@ export default function BookGallery({
           height={400}
           className="rounded-lg shadow-2xl object-cover"
           priority
+          onError={(e) => {
+            console.warn(`Failed to load image: ${selectedImage === 0 ? mainImage : thumbnails[selectedImage].src}`);
+          }}
         />
         <div className="absolute inset-0 bg-black/20 rounded-lg flex flex-col justify-end p-4">
           <div className="text-white text-center">
@@ -65,6 +68,9 @@ export default function BookGallery({
               width={80}
               height={100}
               className="object-cover"
+              onError={(e) => {
+                console.warn(`Failed to load thumbnail: ${thumbnail.src}`);
+              }}
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center cursor-pointer">
               <span className="text-white text-xs font-medium">

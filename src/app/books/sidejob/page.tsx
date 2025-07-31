@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book11Page() {
+export default function Book14Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
@@ -19,19 +19,19 @@ export default function Book11Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/grandfathersadvice.png"
-              mainImageAlt="A Grandfather's Advice to His Grandchildren -- An Illustrated Guide Cover"
-              title="A Grandfather's Advice to His Grandchildren -- An Illustrated Guide "
-              subtitle="Life Lessons"
+              mainImage="/thesidejob.png"
+              mainImageAlt="The Side Job Cover"
+              title="The Side Job"
+              subtitle="Creative Writing"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/grandfathersadvice.png",
+                  src: "/thesidejob.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
                 {
-                  src: "/grandfathersadviceback.png",
+                  src: "/sidejobback.png",
                   alt: "Page 1",
                   label: "Page 1"
                 },
@@ -46,19 +46,20 @@ export default function Book11Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">A Grandfather's Advice to His Grandchildren -- An Illustrated Guide</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">The Side Job</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              In my 82nd year, it is my wish to share some worthy insights with my grandchildren and children. 
-              I’ve chosen 100 wise sayings that offer valuable life lessons. 
-              Forty-four of these sayings have been gifted to me over the years, as I’ve searched for the purpose of life. 
-              Since 1971, the year of my spiritual awakening, these are some of the Aha! moments I’ve had. 
-              As an artist for sixty years, I’ve chosen to pass these sayings on by illustrating them. 
-              These illustrations are from a collaboration between me and my computer. 
-              I have added 56 sayings from the public domain that have had a lasting impression on me.</p>
+              This is the story of Maggie Gomez — an unwed, unskilled mother of a sickly daughter. 
+              She lives a hardscrabble life on the underside of Las Vegas. 
+              As her daughter’s health deteriorates, Maggie's need for money for an operation skyrockets. 
+              Maggie was vulnerable and defeated early in life. 
+              Her long-suppressed strength blossoms and Maggie becomes “La Femme Nikita”. 
+              As Maggie gets more involved with her loan shark boss and his crew, her world begins to spiral out of control. 
+              Her simultaneous involvement with a gangster and the detective investigating him turns her life into a soap opera of emotions. 
+              She must figure out how to escape her underworld life, protect her daughter, and live happily ever after.</p>
             </div>
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
@@ -83,10 +84,7 @@ export default function Book11Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Buy Now - $9.99
-              </button>
-              <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <button className="bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
                 Read Sample
               </button>
             </div>

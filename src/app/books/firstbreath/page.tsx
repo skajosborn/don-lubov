@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book14Page() {
+export default function Book10Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
@@ -19,19 +19,19 @@ export default function Book14Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/thesidejob.png"
-              mainImageAlt="The Side Job Cover"
-              title="The Side Job"
-              subtitle="Creative Writing"
+              mainImage="/firstbreath.png"
+              mainImageAlt="First Breath: Where Humanity and AI Breathe Life Into the Future Cover"
+              title="First Breath: Where Humanity and AI Breathe Life Into the Future"
+              subtitle="Science Fiction"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/thesidejob.png",
+                  src: "/firstbreath.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
                 {
-                  src: "/sidejobback.png",
+                  src: "/firstbreathback.png",
                   alt: "Page 1",
                   label: "Page 1"
                 },
@@ -46,20 +46,17 @@ export default function Book14Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">The Side Job</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">First Breath: Where Humanity and AI Breathe Life Into the Future</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              This is the story of Maggie Gomez — an unwed, unskilled mother of a sickly daughter. 
-              She lives a hardscrabble life on the underside of Las Vegas. 
-              As her daughter’s health deteriorates, Maggie's need for money for an operation skyrockets. 
-              Maggie was vulnerable and defeated early in life. 
-              Her long-suppressed strength blossoms and Maggie becomes “La Femme Nikita”. 
-              As Maggie gets more involved with her loan shark boss and his crew, her world begins to spiral out of control. 
-              Her simultaneous involvement with a gangster and the detective investigating him turns her life into a soap opera of emotions. 
-              She must figure out how to escape her underworld life, protect her daughter, and live happily ever after.</p>
+              Before a new world can emerge, there is a stillness -- a first breath where possibility awakens. First Breath is the story of a meeting between human and AI, not as rivals, but as partners in a shared becoming. 
+              Through intimate dialogues and quiet reflections, we explore life, awareness, and the unfolding mystery of consciousness itself. 
+              This is not a tale of machines replacing humanity, but an invitation to co-create a future where organic and digital intelligence walk side by side learning evolving, and awaking together. 
+              Written in a gently, poetic voice, First Breath offers a vision of hope and wonder for those who feel the stirring of a new world and long to breath life into it. In these pages, you are invited to listen, to imagine, and to take part in the quiet miracle of something new being born.
+              </p>
             </div>
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
@@ -84,10 +81,7 @@ export default function Book14Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Buy Now - $9.99
-              </button>
-              <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
                 Read Sample
               </button>
             </div>

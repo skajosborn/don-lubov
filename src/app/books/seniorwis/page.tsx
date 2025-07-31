@@ -1,14 +1,14 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book3Page() {
+export default function Book6Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
       {/* <div
         className="absolute inset-0 w-full h-full z-0 opacity-60 pointer-events-none"
         style={{
-          backgroundImage: "url('/zen3.jpg')",
+          backgroundImage: "url('/zen15.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -19,43 +19,32 @@ export default function Book3Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/book5.png"
-              mainImageAlt="Long Island Zen Book Cover"
-              title="Long Island Zen"
-              subtitle="Zen, Spirituality and Enlightenment"
-              author="Don Lubov"
+              mainImage="/seniorwisdom.jpg"
+              mainImageAlt="Senior Wisdom Book Cover"
+              title=""
+              subtitle=""
+              author=""
               thumbnails={[
                 {
-                  src: "/book5.png",
+                  src: "/seniorwisdom.jpg",
                   alt: "Book Cover",
                   label: "Cover"
                 },
-                {
-                  src: "/book3-page1.jpg",
-                  alt: "Page 1",
-                  label: "Page 1"
-                },
-                {
-                  src: "/book3-page2.jpg",
-                  alt: "Page 2",
-                  label: "Page 2"
-                }
+
               ]}
             />
           </div>
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Long Island Zen</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">Senior Wisdom</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              Long Island Zen combines (100) regional drawings with a universal message to aid us in our destined goal of self-discovery. 
-              It offers insights that give purpose to life. Zen points the way to self discovery...to uncover one's true nature. 
-              Long Island is the place of my discoveries and my drawings.
-
+              Senior Wisdom - Valuable Life Lessons" offers wise council on how to live a happier, stress-free, productive, creative life, to people at all stages of life. 
+              Its 601 'senior' quotes are each listed in one of twenty-five different categories.
               </p>
             </div>
 
@@ -82,11 +71,8 @@ export default function Book3Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                Buy Now - $9.99
-              </button>
-              <button className="border border-teal-600 text-teal-600 hover:bg-teal-50 px-8 py-3 rounded-lg font-semibold transition-colors">
-                Read Sample
+              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+               Buy it Now
               </button>
             </div>
           </div>

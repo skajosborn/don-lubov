@@ -1,14 +1,14 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book1Page() {
+export default function Book3Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
       {/* <div
         className="absolute inset-0 w-full h-full z-0 opacity-60 pointer-events-none"
         style={{
-          backgroundImage: "url('/zen15.jpg')",
+          backgroundImage: "url('/zen3.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -19,41 +19,33 @@ export default function Book1Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/book7.png"
-              mainImageAlt="Life's Purpose Book Cover"
-              title="Life's Purpose"
-              subtitle="Life's Purpose"
+              mainImage="/book5.png"
+              mainImageAlt="Long Island Zen Book Cover"
+              title="Long Island Zen"
+              subtitle="Zen, Spirituality and Enlightenment"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/book7.png",
+                  src: "/book5.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
-                {
-                  src: "/book3-page1.jpg",
-                  alt: "Page 1",
-                  label: "Page 1"
-                },
-                {
-                  src: "/book3-page2.jpg",
-                  alt: "Page 2",
-                  label: "Page 2"
-                }
+
               ]}
             />
           </div>
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Life's Purpose - From Stress to Enlightenment</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">Long Island Zen</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              This book is your introduction to spirituality...a user-friendly guide to end suffering. End stress forever. Become the best you you can be. Learn to live in the moment. 
-              Find purpose in your life and a conscious connection to your Source. Live a life of peace, love and joy by following my "Six-Step Path" to enlightenment.
+              Long Island Zen combines (100) regional drawings with a universal message to aid us in our destined goal of self-discovery. 
+              It offers insights that give purpose to life. Zen points the way to self discovery...to uncover one's true nature. 
+              Long Island is the place of my discoveries and my drawings.
 
               </p>
             </div>
@@ -81,11 +73,8 @@ export default function Book1Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Buy Now - $9.99
-              </button>
-              <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Read Sample
+              <button className="bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                Buy it Now
               </button>
             </div>
           </div>

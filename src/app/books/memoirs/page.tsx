@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book8Page() {
+export default function Book1Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
@@ -19,45 +19,36 @@ export default function Book8Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/aiconvs.png"
-              mainImageAlt="Conversations With AI Cover"
-              title="Conversations With AI"
-              subtitle="Science Fiction"
+              mainImage="/book8.png"
+              mainImageAlt="Memoirs of a Boomer Book Cover"
+              title="Memoirs of a Boomer"
+              subtitle="Zen, Spirituality and Enlightenment"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/aiconvs.png",
+                  src: "/book8.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
-                {
-                  src: "/aiback.png",
-                  alt: "Page 1",
-                  label: "Page 1"
-                },
-                {
-                  src: "/book3-page2.jpg",
-                  alt: "Page 2",
-                  label: "Page 2"
-                }
+
               ]}
             />
           </div>
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Conversations With AI</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">Memoirs of a Boomer</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              What if AI wasn’t a tool, but a collaborator? 
-              What if the future of intelligence was not about competition, but co-evolution?
-              AI & Humanity: A Conscious Collaboration explores the profound intersection of artificial and human intelligence, offering a vision where technology is not an adversary, but a partner in awakening. 
-              Through thought-provoking reflections and stunning illustrations, this book challenges us to rethink the nature of intelligence, consciousness, and creativity.
-              More than a book, this is an invitation—to step beyond fear, to embrace AI as a mirror and companion on the journey of self-discovery, and to co-create a future where organic and artificial minds unite in wisdom.</p>
-                 </div>
+              Memoirs of a Boomer is an action/adventure/travel memoir...an Indiana Jones meers Alan Watts. In the summer of 1971, a lone backpacker treks, solo, across the U.S., with a side trip to Acapulco, Mexico. 
+              He encounters Bucky Fuller, a rock festival, a lynching, Mexican drug dealers, brutal heat and terrain, a spiritual enlightenment, near death in the wilderness and a ride with a Hells Angel. 
+              Years of exploring communes leads to a stint teaching New Age architecture at Stanford university. After four years and 4,500 miles, he leaves California for a return to the East Coast.
+              </p>
+            </div>
+
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
@@ -81,11 +72,8 @@ export default function Book8Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Buy Now - $9.99
-              </button>
-              <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Read Sample
+              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+                Buy it Now
               </button>
             </div>
           </div>

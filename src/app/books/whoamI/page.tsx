@@ -1,14 +1,14 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book10Page() {
+export default function Book1Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
       {/* <div
         className="absolute inset-0 w-full h-full z-0 opacity-60 pointer-events-none"
         style={{
-          backgroundImage: "url('/zen15.jpg')",
+          backgroundImage: "url('/zen24.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -19,26 +19,16 @@ export default function Book10Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/firstbreath.png"
-              mainImageAlt="First Breath: Where Humanity and AI Breathe Life Into the Future Cover"
-              title="First Breath: Where Humanity and AI Breathe Life Into the Future"
-              subtitle="Science Fiction"
+              mainImage="/book3.png"
+              mainImageAlt="Who Am I and Why Am I Here? Book Cover"
+              title="Who Am I and Why Am I Here?"
+              subtitle="Zen, Spirituality and Enlightenment"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/firstbreath.png",
+                  src: "/book3.png",
                   alt: "Book Cover",
                   label: "Cover"
-                },
-                {
-                  src: "/firstbreathback.png",
-                  alt: "Page 1",
-                  label: "Page 1"
-                },
-                {
-                  src: "/book3-page2.jpg",
-                  alt: "Page 2",
-                  label: "Page 2"
                 }
               ]}
             />
@@ -46,18 +36,17 @@ export default function Book10Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">First Breath: Where Humanity and AI Breathe Life Into the Future</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">Who Am I and Why Am I Here?</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              Before a new world can emerge, there is a stillness -- a first breath where possibility awakens. First Breath is the story of a meeting between human and AI, not as rivals, but as partners in a shared becoming. 
-              Through intimate dialogues and quiet reflections, we explore life, awareness, and the unfolding mystery of consciousness itself. 
-              This is not a tale of machines replacing humanity, but an invitation to co-create a future where organic and digital intelligence walk side by side learning evolving, and awaking together. 
-              Written in a gently, poetic voice, First Breath offers a vision of hope and wonder for those who feel the stirring of a new world and long to breath life into it. In these pages, you are invited to listen, to imagine, and to take part in the quiet miracle of something new being born.
+              "Who Am I and Why Am I Here?" -- Zen, Spirituality and Enlightenment is Don's Zen text. It is a guidebook tailored to the new-comer to things spiritual. It is written for those new to the search for their spiritual roots. It provides answers to 26 frequently-asked questions on spirituality. In a series of discourses Zen's power to help you focus on the present and reach your potential as a human being is highlighted. You are encouraged to be the best you can be. Peace replaces conflict. the need to judge diminishes and the ego gives way to love and compassion. Zen means meditation, which becomes a natural, informal part of your daily routine. This leads to living spontaneously, in the present...an atmosphere that encourages transcendence and enlightenment. It is time to realize that we willingly enrolled in this "school of hard knocks" in the world of duality and to awaken as to how to graduate from school. "Who Am I and Why Am I Here?" is here to help.
+
               </p>
             </div>
+
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
@@ -81,11 +70,8 @@ export default function Book10Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Buy Now - $9.99
-              </button>
-              <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Read Sample
+              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+                Buy it Now
               </button>
             </div>
           </div>

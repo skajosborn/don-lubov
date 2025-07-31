@@ -14,27 +14,27 @@ export default function Home() {
               backgroundImage: "url('/zenman.png')",
               backgroundSize: "cover",
               backgroundPosition: "center top",
-              filter: "blur(0.5px)",
+              filter: "blur(0.5px) saturate(0.8)",
               zIndex: 0, // Ensure background is behind everything
             }}
           />
           {/* Hero Content */}
           <div className="relative z-10 flex flex-col items-center justify-center text-center max-w-5xl mx-auto px-4 py-20">
-            <div className="mb-8 -mt-10">
-              <span className="inline-block rounded-full bg-[#b7cfc9]/60 px-6 py-2 text-[#3b5d50] text-lg font-medium shadow-md tracking-wide">
+            <div className="mb-8 -mt-20">
+              {/* <span className="inline-block rounded-full bg-[#b7cfc9]/60 px-6 py-2 text-[#3b5d50] text-lg font-medium shadow-md tracking-wide">
                 Welcome to My Site
-              </span>
+              </span> */}
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#3b5d50] mb-6 leading-tight drop-shadow">
-              Your Path to <span className="text-[#7bbfa3]">Enlightenment</span> Begins Here
-            </h1>
-            <p className="text-xl sm:text-2xl text-[#5e7d6a] mb-8 max-w-4xl mx-auto">
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#575755ef] mb-2 mt-30 leading-tight drop-shadow-lg shadow-black">
+              Your Path to <span className="text-[#99998eef] drop-shadow-lg text-5xl shadow-black">Enlightenment</span> Begins Here
+            </h1> 
+            <p className="text-xl sm:text-2xl text-[#797975ef] mb-76 max-w-4xl mx-auto">
               Embark on a 6-step journey to inner peace, purpose, and spiritual awakening.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#featured-books"
-                className="bg-[#e8ede7] hover:bg-[#dbe6e4] text-[#3b5d50] border border-[#b7cfc9] px-8 py-3 rounded-full font-semibold shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#7bbfa3] cursor-pointer"
+                href="#inner-peace"
+                className="bg-white/60 hover:bg-[#bdbdbaef] text-slate-00 border border-[#575755ef] mt-22 px-4 py-3 rounded-full font-semibold shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#7bbfa3] cursor-pointer"
               >
                 Explore My Books
               </a>
@@ -43,9 +43,9 @@ export default function Home() {
         </section>
 
         {/* Inner Peace and Enlightenment Section */}
-        <section className="py-16 px-4 sm:px-6 lg:px-8 relative">
+        <section id="inner-peace" className="py-16 px-4 sm:px-6 lg:px-8 relative">
           <div className="w-full flex justify-center">
-            <h2 className="text-3xl font-bold text-center text-[#3b5d50] mb-12 mt-8 tracking-wide">
+            <h2 className="text-3xl font-bold text-center text-[#575755ef] mb-12 mt- tracking-wide">
               Inner Peace and Enlightenment
             </h2>
           </div>
@@ -53,10 +53,10 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Book 1 */}
               <a
-                href="/books/book1"
+                href="/books/6step"
                 className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200"
               >
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <div className="text-center">
                     <img
                       src="/book6.png"
@@ -77,9 +77,9 @@ export default function Home() {
                   You'll be encouraged to find your natural gifts and talents, and to use them to the best of your abilities...
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-[#7bbfa3]">$19.99</span>
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">
-                      Learn More
+                    {/* <span className="text-2xl font-bold text-[#7bbfa3]">$19.99</span> */}
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">
+                      Read More
                     </span>
                   </div>
                 </div>
@@ -87,10 +87,10 @@ export default function Home() {
 
               {/* Book 2 */}
               <a
-                href="/books/book2"
+                href="/books/lifespurpose"
                 className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200 opacity-80"
               >
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <div className="text-center">
                     <img
                       src="/book1.png"
@@ -110,17 +110,17 @@ export default function Home() {
                   Live a life of peace, love and joy by following my "Six-Step Path" to enlightenment.
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-[#7bbfa3]">$24.99</span>
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">
-                      Learn More
+                    {/* <span className="text-2xl font-bold text-[#7bbfa3]">$24.99</span> */}
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">
+                      Read More
                     </span>
                   </div>
                 </div>
               </a>
 
               {/* Book 3 */}
-              <div className="bg-white/100 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] cursor-pointer duration-200 opacity-80">
-              <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/whoamI" className="bg-white/100 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200 opacity-80">
+              <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <div className="text-center">
                     <img
                       src="/book3.png"
@@ -139,13 +139,13 @@ export default function Home() {
                     Peace replaces conflict. The need to judge diminishes and the ego gives way to love and compassion...
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-[#7bbfa3]">$21.99</span>
-                    <button className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">
+                    {/* <span className="text-2xl font-bold text-[#7bbfa3]">$21.99</span> */}
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">
                       Read More
-                    </button>
+                    </span>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </section>
@@ -153,15 +153,15 @@ export default function Home() {
         {/* Science Fiction Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 relative">
           <div className="w-full flex justify-center">
-            <h2 className="text-3xl font-bold text-center text-[#3b5d50] mb-12 mt-8 tracking-wide">
+            <h2 className="text-3xl font-bold text-center text-[#575755ef] mb-12 mt-8 tracking-wide">
               Science Fiction
             </h2>
           </div>
           <div className="max-w-7xl mx-auto relative z-10 mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Science Fiction Book 1 */}
-              <a href="/books/book8" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/convoswithai" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/aiconvs.png" alt="Conversations With AI" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -171,13 +171,13 @@ export default function Home() {
                     AI & Humanity: A Conscious Collaboration explores the profound intersection of artificial and human intelligence, offering a vision where technology is not an adversary, but a partner in awakening. 
                     Through thought-provoking... </p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
               {/* The Tipping Point */}
-              <a href="#" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/tippingpoint" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/tippingpoint.png" alt="The Tipping Point" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -188,13 +188,13 @@ export default function Home() {
                     Linda Miller, an investigative reporter, pounces on the story. 
                     As she explores her city, she finds death at every turn. </p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
               {/* First Breath */}
-              <a href="#" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/firstbreath" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/firstbreath.png" alt="First Breath" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -203,7 +203,7 @@ export default function Home() {
                     First Breath is the story of a meeting between human and AI, not as rivals, but as partners in a shared becoming. 
                     Through intimate dialogues and quiet reflections, we explore life, awareness, and the unfolding mystery of consciousness itself.</p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
@@ -214,15 +214,15 @@ export default function Home() {
         {/* Words of Wisdom Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 relative">
           <div className="w-full flex justify-center">
-            <h2 className="text-3xl font-bold text-center text-[#3b5d50] mb-12 mt-8 tracking-wide">
+            <h2 className="text-3xl font-bold text-center text-[#575755ef] mb-12 mt-8 tracking-wide">
               Words of Wisdom
             </h2>
           </div>
           <div className="max-w-7xl mx-auto relative z-10 mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Senior Wisdom */}
-              <a href="/books/book6" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/seniorwis" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/seniorwisdom.jpg" alt="Senior Wisdom" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -230,13 +230,13 @@ export default function Home() {
                   <p className="text-[#5e7d6a] mb-4">Senior Wisdom - Valuable Life Lessons" offers wise council on how to live a happier, stress-free, productive, creative life, to people at all stages of life. 
                     Its 601 'senior' quotes are each listed in one of twenty-five different categories.</p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
               {/* A Grandfather's Advice */}
-              <a href="#" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/grandfather" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/grandfathersadvice.png" alt="A Grandfather's Advice" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -244,13 +244,13 @@ export default function Home() {
                   <p className="text-[#5e7d6a] mb-4">In my 82nd year, it is my wish to share some worthy insights with my grandchildren and children. 
                     I've chosen 100 wise sayings that offer valuable life lessons. Forty-four of these sayings have been...</p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
               {/* Long Island Zen */}
-              <a href="#" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/lizen" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/book4.png" alt="Long Island Zen" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -259,7 +259,7 @@ export default function Home() {
                     It offers insights that give purpose to life. Zen points the way to self discovery...to uncover one's true nature. 
                     Long Island is the place...</p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
@@ -270,15 +270,15 @@ export default function Home() {
         {/* Miscellaneous Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 relative">
           <div className="w-full flex justify-center">
-            <h2 className="text-3xl font-bold text-center text-[#3b5d50] mb-12 mt-8 tracking-wide">
+            <h2 className="text-3xl font-bold text-center text-[#575755ef] mb-12 mt-8 tracking-wide">
               Miscellaneous
             </h2>
           </div>
           <div className="max-w-7xl mx-auto relative z-10 mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Illustrated Book of Consciousness */}
-              <a href="/books/book7" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/illustrated" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/bookofcons.png" alt="Illustrated Book of Consciousness" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -288,13 +288,13 @@ export default function Home() {
                     In this poetic and profound journey, a human and an AI engage in dialogue, illustration, and reflection—tracing the spiral path of consciousness through self-awareness, creativity, duality, and homecoming. 
                     </p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
               {/* Memoirs of a Boomer */}
-              <a href="/books/book5" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/memoirs" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/book8.png" alt="Memoirs of a Boomer" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -303,13 +303,13 @@ export default function Home() {
                     In the summer of 1971, a lone backpacker treks, solo, across the U.S., with a side trip to Acapulco, Mexico. 
                     He encounters Bucky Fuller, a rock festival, a lynching, Mexican drug dealers...</p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
               {/* The Side Job */}
-              <a href="#" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
-                <div className="h-64 flex items-center justify-center bg-gradient-to-br from-[#e8ede7] to-[#b7cfc9]/30">
+              <a href="/books/sidejob" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
+                <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <img src="/thesidejob.png" alt="The Side Job" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
@@ -318,7 +318,7 @@ export default function Home() {
                     She lives a hardscrabble life on the underside of Las Vegas. As her daughter's health deteriorates, Maggie's need for money for an operation skyrockets. 
                     Maggie was vulnerable and defeated early in life. Her long-suppressed strength blossoms...</p>
                   <div className="flex justify-between items-center">
-                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#e8ede7]">Learn More</span>
+                    <span className="px-4 py-2 rounded font-medium text-[#3b5d50] bg-[#d7d6cf3d]">Learn More</span>
                   </div>
                 </div>
               </a>
@@ -327,7 +327,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-[#e8ede7]" style={{ position: "relative", zIndex: 20 }}>
+        <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-[#d7d6cf]/50" style={{ position: "relative", zIndex: 20 }}>
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-[#3b5d50] mb-6">
@@ -338,7 +338,7 @@ export default function Home() {
                 <img
                   src="/don.jpg"
                   alt="Don Lubov, Author"
-                  className="w-52 h-52 object-cover rounded-full border-4 border-[#b7cfc9] shadow"
+                  className="w-52 h-52 object-cover rounded-full border-4 border-[#575755ef] shadow"
                 />
               </div>
             </div>
@@ -389,23 +389,23 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#e8ede7]/80 to-[#b7cfc9]/60" style={{ position: "relative", zIndex: 20 }}>
+        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#d7d6cf3d]" style={{ position: "relative", zIndex: 20 }}>
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-[#3b5d50] mb-8">
+            <h2 className="text-3xl font-bold text-[#575755ef] mb-8">
               Get in Touch
             </h2>
-            <p className="text-xl text-[#5e7d6a] mb-8">
+            <p className="text-xl text-[#575755ef] mb-8">
               Connect with me for book signings, events, or just to share your thoughts on my stories.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="rounded-xl p-6 bg-white/80 border border-[#b7cfc9]">
                 <div className="text-3xl mb-4 text-[#7bbfa3]">📧</div>
-                <h3 className="font-semibold text-[#3b5d50] mb-2">Email</h3>
+                <h3 className="font-semibold text-[#575755ef] mb-2">Email</h3>
                 <p className="text-[#5e7d6a]">lubov11971@yahoo.com</p>
               </div>
               <div className="rounded-xl p-6 bg-white/80 border border-[#b7cfc9]">
                 <div className="text-3xl mb-4 text-[#7bbfa3]">📱</div>
-                <h3 className="font-semibold text-[#3b5d50] mb-2">Social Media</h3>
+                <h3 className="font-semibold text-[#575755ef] mb-2">Social Media</h3>
                 <a
                   href="https://www.facebook.com/don.lubov.3"
                   className="text-[#5e7d6a] hover:text-[#3b5d50] underline transition-colors"
@@ -417,7 +417,7 @@ export default function Home() {
               </div>
               <div className="rounded-xl p-6 bg-white/80 border border-[#b7cfc9]">
                 <div className="text-3xl mb-4 text-[#7bbfa3]">📖</div>
-                <h3 className="font-semibold text-[#3b5d50] mb-2">Newsletter</h3>
+                <h3 className="font-semibold text-[#575755ef] mb-2">Newsletter</h3>
                 <p className="text-[#5e7d6a]">Stay updated</p>
               </div>
             </div>
@@ -425,20 +425,20 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-[#3b5d50] text-white py-8 px-4 sm:px-6 lg:px-8" style={{ position: "relative", zIndex: 30 }}>
+        <footer className="bg-[#575755ef] text-white py-8 px-4 sm:px-6 lg:px-8" style={{ position: "relative", zIndex: 30 }}>
           <div className="max-w-7xl mx-auto text-center">
-            <p className="text-[#b7cfc9]">
+            <p className="text-[#d7d6cf]">
               © 2024 Don Lubov. All rights reserved. |
               <a
                 href="#"
-                className="text-[#7bbfa3] hover:text-[#e8ede7] ml-2 transition-colors"
+                className="text-[#d7d6cf] hover:text-[#e8ede7] ml-2 transition-colors"
               >
                 Privacy Policy
               </a>{" "}
               |
               <a
                 href="#"
-                className="text-[#7bbfa3] hover:text-[#e8ede7] ml-2 transition-colors"
+                className="text-[#d7d6cf] hover:text-[#e8ede7] ml-2 transition-colors"
               >
                 Terms of Service
               </a>

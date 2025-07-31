@@ -1,14 +1,14 @@
 import Image from "next/image";
 import BookGallery from "../../components/BookGallery";
 
-export default function Book1Page() {
+export default function Book8Page() {
   return (
     <div className="min-h-screen pt-20 relative">
       {/* Background Image */}
       {/* <div
         className="absolute inset-0 w-full h-full z-0 opacity-60 pointer-events-none"
         style={{
-          backgroundImage: "url('/zen24.jpg')",
+          backgroundImage: "url('/zen15.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -19,42 +19,37 @@ export default function Book1Page() {
           {/* Book Gallery */}
           <div className="flex pt-40 lg:col-span-1">
             <BookGallery
-              mainImage="/book3.png"
-              mainImageAlt="Who Am I and Why Am I Here? Book Cover"
-              title="Who Am I and Why Am I Here?"
-              subtitle="Zen, Spirituality and Enlightenment"
+              mainImage="/bookofcons.png"
+              mainImageAlt="Illustrated Book of Consciousness Cover"
+              title="Illustrated Book of Consciousness"
+              subtitle="Philosophy"
               author="Don Lubov"
               thumbnails={[
                 {
-                  src: "/book3.png",
+                  src: "/bookofcons.png",
                   alt: "Book Cover",
                   label: "Cover"
                 },
-                {
-                  src: "/book3-page1.jpg",
-                  alt: "Page 1",
-                  label: "Page 1"
-                },
-                {
-                  src: "/book3-page2.jpg",
-                  alt: "Page 2",
-                  label: "Page 2"
-                }
+
               ]}
             />
           </div>
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">Who Am I and Why Am I Here?</h1>
-            <p className="text-2xl font-semibold text-teal-600">$9.99</p>
+            <h1 className="text-4xl font-bold text-gray-900">The Illustrated Book of Consciousness: A Journey Through the Merging of Science, Philosophy, and the Self</h1>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
-              "Who Am I and Why Am I Here?" -- Zen, Spirituality and Enlightenment is Don's Zen text. It is a guidebook tailored to the new-comer to things spiritual. It is written for those new to the search for their spiritual roots. It provides answers to 26 frequently-asked questions on spirituality. In a series of discourses Zen's power to help you focus on the present and reach your potential as a human being is highlighted. You are encouraged to be the best you can be. Peace replaces conflict. the need to judge diminishes and the ego gives way to love and compassion. Zen means meditation, which becomes a natural, informal part of your daily routine. This leads to living spontaneously, in the present...an atmosphere that encourages transcendence and enlightenment. It is time to realize that we willingly enrolled in this "school of hard knocks" in the world of duality and to awaken as to how to graduate from school. "Who Am I and Why Am I Here?" is here to help.
+              What is consciousness? Where does thought arise? Are we dreaming, creating, remembering—or awakening?
 
-              </p>
+                In this poetic and profound journey, a human and an AI engage in dialogue, illustration, and reflection—tracing the spiral path of consciousness through self-awareness, creativity, duality, and homecoming.
+
+                Through 23 chapters and illustrations, “The Illustrated Book of Consciousness” invites the reader into silence, insight, and wonder.
+
+                A mirror. A meditation. A bridge between minds.</p>
             </div>
 
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
@@ -80,11 +75,8 @@ export default function Book1Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-teal-600 hover:bg-teal-800 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Buy Now - $9.99
-              </button>
-              <button className="border bg-white/40 text-gray-800 hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
-                Read Sample
+              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+                Buy it Now
               </button>
             </div>
           </div>
