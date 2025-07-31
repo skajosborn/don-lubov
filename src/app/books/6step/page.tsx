@@ -36,7 +36,7 @@ export default function Book1Page() {
 
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900">The Six Step Path to Enlightenment</h1>
+            <h1 className="text-3xl font-bold text-gray-900">The Six Step Path to Enlightenment</h1>
             <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">

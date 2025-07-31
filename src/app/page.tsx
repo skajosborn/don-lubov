@@ -25,10 +25,10 @@ export default function Home() {
                 Welcome to My Site
               </span> */}
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#575755ef] mb-2 mt-30 leading-tight drop-shadow-lg shadow-black">
-              Your Path to <span className="text-[#99998eef] drop-shadow-lg text-5xl shadow-black">Enlightenment</span> Begins Here
+            <h1 className="text-3xl sm:text-4xl font-extrabold text-[#575755ef] mb-2 mt-30 leading-tight drop-shadow-lg shadow-black">
+              Your Path to <span className="text-[#99998eef] drop-shadow-lg text-4xl shadow-black">Enlightenment</span> Begins Here
             </h1> 
-            <p className="text-xl sm:text-2xl text-[#797975ef] mb-76 max-w-4xl mx-auto">
+            <p className="text-xl sm:text-xl text-[#797975ef] mb-76 max-w-4xl mx-auto">
               Embark on a 6-step journey to inner peace, purpose, and spiritual awakening.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
