@@ -336,7 +336,7 @@ export default function Home() {
               {/* Author Image */}
               <div className="flex justify-center mb-6">
                 <img
-                  src="/don.jpg"
+                  src="/Don.jpg"
                   alt="Don Lubov, Author"
                   className="w-52 h-52 object-cover rounded-full border-4 border-[#575755ef] shadow"
                 />
