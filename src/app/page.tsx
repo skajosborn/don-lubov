@@ -49,8 +49,8 @@ export default function Home() {
               Inner Peace and Enlightenment
             </h2>
           </div>
-          <div className="max-w-7xl mx-auto relative z-10 mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-5xl mx-auto relative z-10 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Book 1 */}
               <a
                 href="/books/6step"
@@ -157,8 +157,8 @@ export default function Home() {
               Science Fiction
             </h2>
           </div>
-          <div className="max-w-7xl mx-auto relative z-10 mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-5xl mx-auto relative z-10 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Science Fiction Book 1 */}
               <a href="/books/convoswithai" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
                 <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
@@ -218,8 +218,8 @@ export default function Home() {
               Words of Wisdom
             </h2>
           </div>
-          <div className="max-w-7xl mx-auto relative z-10 mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-5xl mx-auto relative z-10 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Senior Wisdom */}
               <a href="/books/seniorwis" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
                 <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
@@ -274,8 +274,8 @@ export default function Home() {
               Miscellaneous
             </h2>
           </div>
-          <div className="max-w-7xl mx-auto relative z-10 mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-5xl mx-auto relative z-10 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Illustrated Book of Consciousness */}
               <a href="/books/illustrated" className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200">
                 <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
