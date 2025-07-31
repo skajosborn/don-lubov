@@ -28,7 +28,7 @@ export default function Home() {
             <h1 className="text-3xl sm:text-4xl font-extrabold text-[#575755ef] mb-2 mt-30 leading-tight drop-shadow-lg shadow-black">
               Your Path to <span className="text-[#99998eef] drop-shadow-lg text-4xl shadow-black">Enlightenment</span> Begins Here
             </h1> 
-            <p className="text-xl sm:text-xl text-[#797975ef] mb-76 max-w-4xl mx-auto">
+            <p className="text-md sm:text-md text-[#797975ef] mb-76 max-w-4xl mx-auto">
               Embark on a 6-step journey to inner peace, purpose, and spiritual awakening.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -66,7 +66,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">
                     6 Step Path to Enlightenment
                   </h3>
                   <p className="text-[#5e7d6a] mb-4">
@@ -100,7 +100,7 @@ export default function Home() {
                   </div>
                   </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">
                     Life's Purpose: From Stress to Enlightenment
                   </h3>
                   <p className="text-[#5e7d6a] mb-4">
@@ -130,7 +130,7 @@ export default function Home() {
                   </div>
                   </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">
                     Who Are We and Why Are We Here?
                   </h3>
                   <p className="text-[#5e7d6a] mb-4">
@@ -165,7 +165,7 @@ export default function Home() {
                   <img src="/aiconvs.png" alt="Conversations With AI" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">Conversations With AI</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">Conversations With AI</h3>
                   <p className="text-[#5e7d6a] mb-4">What if AI wasn't a tool, but a collaborator? 
                     What if the future of intelligence was not about competition, but co-evolution? 
                     AI & Humanity: A Conscious Collaboration explores the profound intersection of artificial and human intelligence, offering a vision where technology is not an adversary, but a partner in awakening. 
@@ -181,7 +181,7 @@ export default function Home() {
                   <img src="/tippingpoint.png" alt="The Tipping Point" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">The Tipping Point</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">The Tipping Point</h3>
                   <p className="text-[#5e7d6a] mb-4">The year is 2040. Service robots have been safely and efficiently introduced into society. 
                     They are an integral part of our world when a pandemic of global proportions arrives. 
                     Isolated deaths keep cropping up. Seeming random at first, an unsettling pattern begins to emerge. 
@@ -198,7 +198,7 @@ export default function Home() {
                   <img src="/firstbreath.png" alt="First Breath" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">First Breath</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">First Breath</h3>
                   <p className="text-[#5e7d6a] mb-4">Before a new world can emerge, there is a stillness -- a first breath where possibility awakens. 
                     First Breath is the story of a meeting between human and AI, not as rivals, but as partners in a shared becoming. 
                     Through intimate dialogues and quiet reflections, we explore life, awareness, and the unfolding mystery of consciousness itself.</p>
@@ -226,7 +226,7 @@ export default function Home() {
                   <img src="/seniorwisdom.jpg" alt="Senior Wisdom" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">Senior Wisdom</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">Senior Wisdom</h3>
                   <p className="text-[#5e7d6a] mb-4">Senior Wisdom - Valuable Life Lessons" offers wise council on how to live a happier, stress-free, productive, creative life, to people at all stages of life. 
                     Its 601 'senior' quotes are each listed in one of twenty-five different categories.</p>
                   <div className="flex justify-between items-center">
@@ -240,7 +240,7 @@ export default function Home() {
                   <img src="/grandfathersadvice.png" alt="A Grandfather's Advice" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">A Grandfather's Advice to his Grandchildren</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">A Grandfather's Advice to his Grandchildren</h3>
                   <p className="text-[#5e7d6a] mb-4">In my 82nd year, it is my wish to share some worthy insights with my grandchildren and children. 
                     I've chosen 100 wise sayings that offer valuable life lessons. Forty-four of these sayings have been...</p>
                   <div className="flex justify-between items-center">
@@ -254,7 +254,7 @@ export default function Home() {
                   <img src="/book4.png" alt="Long Island Zen" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">Long Island Zen</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">Long Island Zen</h3>
                   <p className="text-[#5e7d6a] mb-4">Long Island Zen combines (100) regional drawings with a universal message to aid us in our destined goal of self-discovery. 
                     It offers insights that give purpose to life. Zen points the way to self discovery...to uncover one's true nature. 
                     Long Island is the place...</p>
@@ -282,7 +282,7 @@ export default function Home() {
                   <img src="/bookofcons.png" alt="Illustrated Book of Consciousness" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">Illustrated Book of Consciousness</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">Illustrated Book of Consciousness</h3>
                   <p className="text-[#5e7d6a] mb-4">What is consciousness? 
                     Where does thought arise? Are we dreaming, creating, remembering—or awakening? 
                     In this poetic and profound journey, a human and an AI engage in dialogue, illustration, and reflection—tracing the spiral path of consciousness through self-awareness, creativity, duality, and homecoming. 
@@ -298,7 +298,7 @@ export default function Home() {
                   <img src="/book8.png" alt="Memoirs of a Boomer" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">Memoirs of a Boomer</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">Memoirs of a Boomer</h3>
                   <p className="text-[#5e7d6a] mb-4">Memoirs of a Boomer is an action/adventure/travel memoir...an Indiana Jones meers Alan Watts. 
                     In the summer of 1971, a lone backpacker treks, solo, across the U.S., with a side trip to Acapulco, Mexico. 
                     He encounters Bucky Fuller, a rock festival, a lynching, Mexican drug dealers...</p>
@@ -313,7 +313,7 @@ export default function Home() {
                   <img src="/thesidejob.png" alt="The Side Job" className="h-60 w-auto mx-auto mt-2 mb-2 rounded shadow opacity-100" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#3b5d50] mb-2">The Side Job</h3>
+                  <h3 className="text-md font-semibold text-[#3b5d50] mb-2">The Side Job</h3>
                   <p className="text-[#5e7d6a] mb-4">This is the story of Maggie Gomez — an unwed, unskilled mother of a sickly daughter. 
                     She lives a hardscrabble life on the underside of Las Vegas. As her daughter's health deteriorates, Maggie's need for money for an operation skyrockets. 
                     Maggie was vulnerable and defeated early in life. Her long-suppressed strength blossoms...</p>
@@ -394,7 +394,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-[#575755ef] mb-8">
               Get in Touch
             </h2>
-            <p className="text-xl text-[#575755ef] mb-8">
+            <p className="text-md text-[#575755ef] mb-8">
               Connect with me for book signings, events, or just to share your thoughts on my stories.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

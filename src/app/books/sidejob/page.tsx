@@ -50,7 +50,7 @@ export default function Book14Page() {
             <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
+              <h3 className="text-md font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
               This is the story of Maggie Gomez — an unwed, unskilled mother of a sickly daughter. 
               She lives a hardscrabble life on the underside of Las Vegas. 
@@ -62,7 +62,7 @@ export default function Book14Page() {
               She must figure out how to escape her underworld life, protect her daughter, and live happily ever after.</p>
             </div>
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
+              <h3 className="text-md font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
                 <li>• 420 pages of magical realism</li>
                 <li>• Deep environmental themes</li>
@@ -73,7 +73,7 @@ export default function Book14Page() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-gray-900">Reviews</h3>
+              <h3 className="text-md font-semibold text-gray-900">Reviews</h3>
               <div className="bg-white p-4 rounded-lg shadow">
                 <p className="text-gray-700 italic">
                   "A beautiful meditation on our relationship with nature. 

@@ -40,7 +40,7 @@ export default function Book1Page() {
             <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
+              <h3 className="text-md font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
               "Who Am I and Why Am I Here?" -- Zen, Spirituality and Enlightenment is Don's Zen text. It is a guidebook tailored to the new-comer to things spiritual. It is written for those new to the search for their spiritual roots. It provides answers to 26 frequently-asked questions on spirituality. In a series of discourses Zen's power to help you focus on the present and reach your potential as a human being is highlighted. You are encouraged to be the best you can be. Peace replaces conflict. the need to judge diminishes and the ego gives way to love and compassion. Zen means meditation, which becomes a natural, informal part of your daily routine. This leads to living spontaneously, in the present...an atmosphere that encourages transcendence and enlightenment. It is time to realize that we willingly enrolled in this "school of hard knocks" in the world of duality and to awaken as to how to graduate from school. "Who Am I and Why Am I Here?" is here to help.
 
@@ -48,7 +48,7 @@ export default function Book1Page() {
             </div>
 
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
+              <h3 className="text-md font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
                 <li>• 420 pages of magical realism</li>
                 <li>• Deep environmental themes</li>
@@ -59,7 +59,7 @@ export default function Book1Page() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-gray-900">Reviews</h3>
+              <h3 className="text-md font-semibold text-gray-900">Reviews</h3>
               <div className="bg-white p-4 rounded-lg shadow">
                 <p className="text-gray-700 italic">
                   "A beautiful meditation on our relationship with nature. 

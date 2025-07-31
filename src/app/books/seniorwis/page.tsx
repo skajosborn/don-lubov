@@ -41,7 +41,7 @@ export default function Book6Page() {
             <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
+              <h3 className="text-md font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
               Senior Wisdom - Valuable Life Lessons" offers wise council on how to live a happier, stress-free, productive, creative life, to people at all stages of life. 
               Its 601 'senior' quotes are each listed in one of twenty-five different categories.
@@ -49,7 +49,7 @@ export default function Book6Page() {
             </div>
 
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
+              <h3 className="text-md font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
                 <li>• 420 pages of magical realism</li>
                 <li>• Deep environmental themes</li>
@@ -60,7 +60,7 @@ export default function Book6Page() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-gray-900">Reviews</h3>
+              <h3 className="text-md font-semibold text-gray-900">Reviews</h3>
               <div className="bg-white p-4 rounded-lg shadow">
                 <p className="text-gray-700 italic">
                   "A beautiful meditation on our relationship with nature. 

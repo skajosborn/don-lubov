@@ -40,7 +40,7 @@ export default function Book1Page() {
             <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
+              <h3 className="text-md font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
               This book, and the lessons within, come from a spiritual awakening I had in 1971, at the age of 30. This guide was refined by me, over 30 years, and I taught its lessons to 2,000 people. </p>
               <p>Unlike many, worthy, meditative paths to enlightenment, my “Six-Step Path” has no ritual or ceremony.
@@ -54,7 +54,7 @@ export default function Book1Page() {
             </div>
 
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
+              <h3 className="text-md font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
                 <li>• 420 pages of magical realism</li>
                 <li>• Deep environmental themes</li>
@@ -65,7 +65,7 @@ export default function Book1Page() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-gray-900">Reviews</h3>
+              <h3 className="text-md font-semibold text-gray-900">Reviews</h3>
               <div className="bg-white p-4 rounded-lg shadow">
                 <p className="text-gray-700 italic">
                   "A beautiful meditation on our relationship with nature. 

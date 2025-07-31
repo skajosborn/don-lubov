@@ -43,7 +43,7 @@ export default function BookGallery({
         />
         <div className="absolute inset-0 bg-black/20 rounded-lg flex flex-col justify-end p-4">
           <div className="text-white text-center">
-            <h2 className="text-xl font-bold mb-1">{title}</h2>
+            <h2 className="text-md font-bold mb-1">{title}</h2>
             {subtitle && <p className="text-sm mb-2">{subtitle}</p>}
             <p className="text-sm opacity-90">by {author}</p>
           </div>

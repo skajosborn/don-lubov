@@ -50,7 +50,7 @@ export default function Book9Page() {
             <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Synopsis</h3>
+              <h3 className="text-md font-semibold text-gray-900">Synopsis</h3>
               <p className="text-gray-700 leading-relaxed">
               The year is 2040. Service robots have been safely and efficiently introduced into society. They are an integral part of our world when a pandemic of global proportions arrives. Isolated deaths keep cropping up. Seeming random at first, an unsettling pattern begins to emerge. Linda Miller, an investigative reporter, pounces on the story. As she explores her city, she finds death at every turn. Her investigation leads to interviews with experts in various fields. Everyone is mystified. People are understandably panicky. The deaths go global. The world is in chaos.
 
@@ -61,7 +61,7 @@ export default function Book9Page() {
             Fast-forward to the year 2133. Several generations have lived in a world without anger. What is that world like and why do they celebrate it? Still, something seems amiss. Behind the scenes, some unsettling events have been taking place. Society has not been the paradise publicly endorsed. Can we live with not knowing both sides of the anger coin? We have to learn to live perfectly in an imperfect world, or we will fail to evolve. Human species that fail to evolve, become extinct.</p>
                             </div>
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900">Key Features</h3>
+              <h3 className="text-md font-semibold text-gray-900">Key Features</h3>
               <ul className="text-gray-700 space-y-2">
                 <li>• 420 pages of magical realism</li>
                 <li>• Deep environmental themes</li>
@@ -72,7 +72,7 @@ export default function Book9Page() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-gray-900">Reviews</h3>
+              <h3 className="text-md font-semibold text-gray-900">Reviews</h3>
               <div className="bg-white p-4 rounded-lg shadow">
                 <p className="text-gray-700 italic">
                   "A beautiful meditation on our relationship with nature. 
