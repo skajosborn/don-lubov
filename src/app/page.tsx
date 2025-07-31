@@ -15,7 +15,7 @@ export default function Home() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
               filter: "blur(0.5px) saturate(0.8)",
-              zIndex: 0, // Ensure background is behind everything
+              zIndex: -1, // Ensure background is behind everything
             }}
           />
           {/* Hero Content */}
@@ -54,7 +54,7 @@ export default function Home() {
               {/* Book 1 */}
               <a
                 href="/books/6step"
-                className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200"
+                className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200 relative z-10 pointer-events-auto"
               >
                 <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <div className="text-center">
@@ -88,7 +88,7 @@ export default function Home() {
               {/* Book 2 */}
               <a
                 href="/books/lifespurpose"
-                className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200 opacity-80"
+                className="bg-white/80 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow block border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200 opacity-80 relative z-10 pointer-events-auto"
               >
                 <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <div className="text-center">
@@ -119,7 +119,7 @@ export default function Home() {
               </a>
 
               {/* Book 3 */}
-              <a href="/books/whoamI" className="bg-white/100 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200 opacity-80">
+              <a href="/books/whoamI" className="bg-white/100 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow border border-[#b7cfc9] hover:bg-white hover:border-[#7bbfa3] duration-200 opacity-80 relative z-10 pointer-events-auto">
               <div className="h-64 flex items-center justify-center bg-[#d7d6cf]">
                   <div className="text-center">
                     <img

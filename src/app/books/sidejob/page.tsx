@@ -84,9 +84,14 @@ export default function Book14Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <a
+                href="https://a.co/d/j45v4Bg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer text-center inline-block"
+              >
                 Read Sample
-              </button>
+              </a>
             </div>
           </div>
         </div>

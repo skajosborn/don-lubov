@@ -47,7 +47,7 @@ export default function Book9Page() {
           {/* Book Details */}
           <div className="space-y-6 lg:col-span-2">
             <h1 className="text-3xl font-bold text-gray-900">The Tipping Point: Civilization's Near Self-Destruction</h1>
-            <p className="text-2xl font-semibold text-[#5e7d6a]">$9.99</p>
+            <p className="text-2xl font-semibold text-[#5e7d6a]">$11.95</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
               <h3 className="text-md font-semibold text-gray-900">Synopsis</h3>
@@ -83,9 +83,14 @@ export default function Book9Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <a
+                href="https://a.co/d/e9IaD8f"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border bg-[#5e7d6a] text-white hover:bg-gray-300 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer text-center inline-block"
+              >
                 Buy it Now
-              </button>
+              </a>
             </div>
           </div>
         </div>

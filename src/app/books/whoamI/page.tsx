@@ -70,9 +70,14 @@ export default function Book1Page() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+              <a
+                href="https://a.co/d/3c6sKAG"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border bg-[#5e7d6a] text-white hover:bg-gray-600 px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer text-center inline-block"
+              >
                 Buy it Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
