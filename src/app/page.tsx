@@ -20,7 +20,7 @@ export default function Home() {
           />
           {/* Hero Content */}
           <div className="relative z-10 flex flex-col items-center justify-start text-center max-w-5xl mx-auto px-4 pt-16 pb-8 lg:pt-24 lg:pb-12">
-            <div className="mb-8">
+            <div className="mb-2 -mt-16">
               {/* <span className="inline-block rounded-full bg-[#b7cfc9]/60 px-6 py-2 text-[#3b5d50] text-lg font-medium shadow-md tracking-wide">
                 Welcome to My Site
               </span> */}
