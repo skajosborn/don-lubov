@@ -9,14 +9,14 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white/70 backdrop-blur-sm shadow-sm fixed top-0 w-full z-50">
+    <nav className="bg-[#575755ef] backdrop-blur-sm shadow-sm fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-12">
-          <a href="/" className="text-md font-bold text-gray-900 hover:text-red-700 transition-colors cursor-pointer">Don Lubov</a>
+          <a href="/" className="text-xl font-bold text-white hover:text-red-700 transition-colors cursor-pointer">Don Lubov</a>
           <div className="hidden md:flex space-x-8">
             <a
               href="/"
-              className="text-black hover:underline hover:text-red-700 cursor-pointer transition-colors"
+              className="text-white hover:underline hover:text-red-700 cursor-pointer transition-colors"
             >
               Home
             </a>
@@ -25,7 +25,7 @@ export default function Navbar() {
             <div className="relative">
               <button
                 onClick={toggleBooksDropdown}
-                className="text-black hover:underline hover:text-red-700 cursor-pointer transition-colors flex items-center"
+                className="text-white hover:underline hover:text-red-700 cursor-pointer transition-colors flex items-center"
               >
                 Books
                 <svg
@@ -158,13 +158,13 @@ export default function Navbar() {
 
             <a
               href="#about"
-              className="text-black hover:underline hover:text-red-700 cursor-pointer transition-colors"
+              className="text-white hover:underline hover:text-red-700 cursor-pointer transition-colors"
             >
               About
             </a>
             <a
               href="#footer"
-              className="text-black hover:underline hover:text-red-700 cursor-pointer transition-colors"
+              className="text-white hover:underline hover:text-red-700 cursor-pointer transition-colors"
             >
               Contact
             </a>
