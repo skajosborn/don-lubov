@@ -425,7 +425,7 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-[#575755ef] text-white py-8 px-4 sm:px-6 lg:px-8" style={{ position: "relative", zIndex: 30 }}>
+        <footer id="footer" className="bg-[#575755ef] text-white py-8 px-4 sm:px-6 lg:px-8" style={{ position: "relative", zIndex: 30 }}>
           <div className="max-w-7xl mx-auto text-center">
             <p className="text-[#d7d6cf]">
               © 2024 Don Lubov. All rights reserved. |
