@@ -34,7 +34,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#inner-peace"
-                className="bg-red-800 hover:bg-[#bdbdbaef] text-slate-100 border border-[#575755ef] text-sm mt-22 -mb-12 px-3 py-2 rounded-full font-semibold shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#7bbfa3] cursor-pointer"
+                className="bg-red-800 hover:bg-[#bdbdbaef] text-slate-100 border border-[#575755ef] text-sm mt-2 -mb-10 px-3 py-2 rounded-full font-semibold shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#7bbfa3] cursor-pointer"
               >
                 Explore My Books
               </a>
