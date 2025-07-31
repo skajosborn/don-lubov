@@ -215,28 +215,117 @@ export default function Navbar() {
             </a>
             <div className="border-t border-gray-600 pt-2">
               <div className="text-white text-sm font-semibold mb-2">Books</div>
-              <div className="space-y-1 pl-4">
-                <a
-                  href="/books/6step"
-                  className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  6 Step Path to Enlightenment
-                </a>
-                <a
-                  href="/books/lifespurpose"
-                  className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Life's Purpose
-                </a>
-                <a
-                  href="/books/whoamI"
-                  className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Who Are We and Why Are We Here?
-                </a>
+              
+              {/* Inner Peace & Enlightenment */}
+              <div className="mb-3">
+                <div className="text-white/70 text-xs font-medium mb-1 pl-4">Inner Peace & Enlightenment</div>
+                <div className="space-y-1 pl-4">
+                  <a
+                    href="/books/6step"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    6 Step Path to Enlightenment
+                  </a>
+                  <a
+                    href="/books/lifespurpose"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Life's Purpose
+                  </a>
+                  <a
+                    href="/books/whoamI"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Who Are We and Why Are We Here?
+                  </a>
+                </div>
+              </div>
+
+              {/* Science Fiction */}
+              <div className="mb-3">
+                <div className="text-white/70 text-xs font-medium mb-1 pl-4">Science Fiction</div>
+                <div className="space-y-1 pl-4">
+                  <a
+                    href="/books/convoswithai"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Conversations With AI
+                  </a>
+                  <a
+                    href="/books/tippingpoint"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    The Tipping Point
+                  </a>
+                  <a
+                    href="/books/firstbreath"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    First Breath
+                  </a>
+                </div>
+              </div>
+
+              {/* Words of Wisdom */}
+              <div className="mb-3">
+                <div className="text-white/70 text-xs font-medium mb-1 pl-4">Words of Wisdom</div>
+                <div className="space-y-1 pl-4">
+                  <a
+                    href="/books/seniorwis"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Senior Wisdom
+                  </a>
+                  <a
+                    href="/books/grandfather"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    A Grandfather's Advice
+                  </a>
+                  <a
+                    href="/books/lizen"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Long Island Zen
+                  </a>
+                </div>
+              </div>
+
+              {/* Miscellaneous */}
+              <div className="mb-3">
+                <div className="text-white/70 text-xs font-medium mb-1 pl-4">Miscellaneous</div>
+                <div className="space-y-1 pl-4">
+                  <a
+                    href="/books/illustrated"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Illustrated Book of Consciousness
+                  </a>
+                  <a
+                    href="/books/memoirs"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Memoirs of a Boomer
+                  </a>
+                  <a
+                    href="/books/sidejob"
+                    className="block text-white/80 hover:text-red-700 py-1 text-sm transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    The Side Job
+                  </a>
+                </div>
               </div>
             </div>
           </div>
