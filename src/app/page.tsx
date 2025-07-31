@@ -19,22 +19,22 @@ export default function Home() {
             }}
           />
           {/* Hero Content */}
-          <div className="relative z-10 flex flex-col items-center justify-center text-center max-w-5xl mx-auto px-4 py-20">
-            <div className="mb-8 -mt-20">
+          <div className="relative z-10 flex flex-col items-center justify-start text-center max-w-5xl mx-auto px-4 pt-16 pb-8 lg:pt-24 lg:pb-12">
+            <div className="mb-8">
               {/* <span className="inline-block rounded-full bg-[#b7cfc9]/60 px-6 py-2 text-[#3b5d50] text-lg font-medium shadow-md tracking-wide">
                 Welcome to My Site
               </span> */}
             </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold text-[#575755ef] mb-2 mt-30 leading-tight drop-shadow-lg shadow-black">
+            <h1 className="text-3xl sm:text-4xl font-extrabold text-[#575755ef] mb-6 leading-tight drop-shadow-lg shadow-black">
               Your Path to <span className="text-[#99998eef] drop-shadow-lg text-4xl shadow-black">Enlightenment</span> Begins Here
             </h1> 
-            <p className="text-md sm:text-md text-[#797975ef] mb-76 max-w-4xl mx-auto">
+            <p className="text-md sm:text-md text-[#797975ef] mb-10 max-w-4xl mx-auto">
               Embark on a 6-step journey to inner peace, purpose, and spiritual awakening.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#inner-peace"
-                className="bg-red-800 hover:bg-[#bdbdbaef] text-slate-100 border border-[#575755ef] text-sm mt-2 -mb-10 px-3 py-2 rounded-full font-semibold shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#7bbfa3] cursor-pointer"
+                className="bg-red-800 hover:bg-[#bdbdbaef] text-slate-100 border border-[#575755ef] text-sm px-3 py-2 mt-16 rounded-full font-semibold shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#7bbfa3] cursor-pointer"
               >
                 Explore My Books
               </a>
