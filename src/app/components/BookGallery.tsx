@@ -27,15 +27,15 @@ export default function BookGallery({
   const [selectedImage, setSelectedImage] = useState(0);
 
   return (
-    <div className="flex flex-col items-center space-y-6">
+    <div className="flex flex-col items-center space-y-4 lg:space-y-6 w-full">
       {/* Main Book Cover */}
-      <div className="relative">
+      <div className="relative flex justify-center">
         <Image
           src={selectedImage === 0 ? mainImage : thumbnails[selectedImage].src}
           alt={selectedImage === 0 ? mainImageAlt : thumbnails[selectedImage].alt}
           width={300}
           height={400}
-          className="rounded-lg shadow-2xl object-cover"
+          className="w-48 h-64 lg:w-80 lg:h-96 rounded-lg shadow-2xl object-cover"
           priority
           onError={(e) => {
             console.warn(`Failed to load image: ${selectedImage === 0 ? mainImage : thumbnails[selectedImage].src}`);
@@ -51,7 +51,7 @@ export default function BookGallery({
       </div>
 
       {/* Thumbnails */}
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 justify-center">
         {thumbnails.map((thumbnail, index) => (
           <button
             key={index}
@@ -82,7 +82,7 @@ export default function BookGallery({
       </div>
 
       {/* Read Sample Button */}
-      <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer">
+      <button className="bg-black hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors cursor-pointer w-full max-w-xs">
         Read sample
       </button>
     </div>

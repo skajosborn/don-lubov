@@ -14,10 +14,10 @@ export default function Book1Page() {
         }}
         aria-hidden="true"
       />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-6 lg:py-12 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-12 items-start">
           {/* Book Gallery */}
-          <div className="flex pt-40 lg:col-span-1">
+          <div className="flex justify-center lg:justify-start pt-8 lg:pt-40 lg:col-span-1">
             <BookGallery
               mainImage="/book6.png"
               mainImageAlt="Six Step Path to Enlightenment Book Cover"
@@ -35,8 +35,8 @@ export default function Book1Page() {
           </div>
 
           {/* Book Details */}
-          <div className="space-y-6 lg:col-span-2">
-            <h1 className="text-3xl font-bold text-gray-900">The Six Step Path to Enlightenment</h1>
+          <div className="space-y-6 lg:col-span-2 text-center lg:text-left">
+            <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">The Six Step Path to Enlightenment</h1>
             <p className="text-2xl font-semibold text-[#5e7d6a]">$8.95</p>
             
             <div className="space-y-4 bg-white/80 rounded-lg p-8">
